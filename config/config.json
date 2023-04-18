@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "My Webclass",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -17,7 +17,7 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Contact Us",
     "link": "/contact"
   },
 
