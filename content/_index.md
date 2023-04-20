@@ -32,8 +32,8 @@ feature:
 
 # services
 services:
-  - title: "It is the most advanced educational platform."
-    content: "At MyWebClass.org, we're driven by the pursuit of knowledge and the desire to enlighten educators in the realm of software engineering and advanced technologies. Our mission is to impart wisdom and empower educators with state-of-the-art resources, tools, and methodologies, enabling them to transform their teaching practices and elevate their students' learning experiences."
+  - title: "It is the most advanced educational platform on technology and AI topics"
+    content: "The diference articles focuses on bringing the benefits of state-of-the-art technology and innovative teaching methodologies to the educational field. He is a thought leader in the educational technology industry and seeks to collaborate with other experts in the field to increase the visibility and credibility of his organization. His mission is to empower educators with the tools and resources necessary to transform their teaching practices. teach and enhance the learning experiences of their students. His blog posts provide insight into the potential of these technologies and methodologies, with titles such as "Revolutionizing Education: The Synergy of AI, Agile, and Lean Methodologies." The ultimate goal is to help fuel a revolution in educational technology that improves educational outcomes for all."
     images:
       - "/images/develoment.jpg"
       - "/images/edd.jpg"
