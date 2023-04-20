@@ -6,7 +6,7 @@ date: 2023-04-04T05:00:00Z
 draft: false
 ---
 
-##### Paragraph
+##### Article
 
 Artificial intelligence (AI), agile, and lean methodologies are changing the landscape of education. These three methodologies work together synergistically to provide personalized and efficient learning experiences that cater to individual student needs. By leveraging these methodologies, educators can provide students with the tools and resources needed to succeed in a rapidly changing world.
 
@@ -20,7 +20,7 @@ The potential benefits of these methodologies are significant, but challenges ex
 
 ---
 
-##### Ordered List
+##### Reference
 
 1. Blasé, J. L. (2021). The impact of AI, agile, and lean methodologies on higher education. Journal of Higher Education Management, 36(3), 15-21.
 
