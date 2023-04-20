@@ -1,5 +1,5 @@
 ---
-title: AI-Powered Agile and Lean Education: A Game Changer in the Edtech Landscape
+title: "AI-Powered Agile and Lean Education: A Game Changer in the Edtech Landscape"
 description: "x"
 image: "/images/x.jpg"
 date: 2023-04-02T06:00:00+00:00
