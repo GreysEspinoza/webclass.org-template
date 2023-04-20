@@ -1,7 +1,7 @@
 ---
-title: "How to make toys from old Olarpaper"
-description: "Heading example Here is example of hedings. You can use this heading by following markdownify rules."
-image: "/images/ai.jpg"
+title: "How AI is shaping the cybersecurity arms race"
+description: "Defending against cyberattacks increasingly means looking for patterns in large amounts of data "
+image: "/images/Inteligencia-Artificial.jpg"
 date: 2022-07-04T05:00:00Z
 draft: false
 ---
