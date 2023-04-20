@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: About Us
 layout: pricing
 draft: false
 plans:
