@@ -35,9 +35,13 @@ services:
   - title: "It is the most advanced educational platform."
     content: "At MyWebClass.org, we're driven by the pursuit of knowledge and the desire to enlighten educators in the realm of software engineering and advanced technologies. Our mission is to impart wisdom and empower educators with state-of-the-art resources, tools, and methodologies, enabling them to transform their teaching practices and elevate their students' learning experiences."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/develoment.jpg"
+      - "/images/edd.jpg"
+      - "/images/Inteligencia-Artificial.jpg"
+      - "/images/ten.jpg"
+      - "/images/x.jpg"
+      - "/images/ai.jpg"
+      - "/images/agile.jpg"
     button:
       enable: true
       label: Check it out
