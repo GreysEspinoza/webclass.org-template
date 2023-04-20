@@ -1,6 +1,6 @@
 ---
 title: "How AI Is Empowering Agile and Lean Education: A Thought Leader's Perspective"
-description: ""
+description: "x"
 image: "/images/agile.jpg"
 date: 2023-04-04T05:00:00Z
 draft: false
