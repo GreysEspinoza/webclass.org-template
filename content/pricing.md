@@ -33,8 +33,8 @@ feature:
     
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Ready to get Started?
+  content: Join MyWebClass.org today to embark on a transformative learning experience in software engineering and advanced technologies. With our expert team, comprehensive offerings, and supportive community, you'll be empowered to excel in your educational journey and career.
   image: '/images/cta.svg'
   button:
     enable: true
