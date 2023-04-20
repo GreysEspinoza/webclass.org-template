@@ -1,5 +1,5 @@
 ---
-title: Network and Collaborate with Thought Leaders in the EdTech Space to Enhance Your AI-Driven Agile and Lean Education Strategies
+title: Collaborating with EdTech Thought Leaders to Enhance AI-Driven Education
 description: "x"
 image: "/images/develoment.jpg"
 date: 2023-04-04T05:00:00Z
