@@ -4,7 +4,7 @@ layout: "contact"
 draft: false
 info: 
   title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  description: Contact MyWebClass.org for expert guidance, personalized support, access to cutting-edge educational resources, and a welcoming community that fosters collaboration and innovation in software engineering and advanced technology education.
   contacts: 
     - "phone: +88 125 256 452"
     - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"

@@ -11,12 +11,12 @@ banner:
 feature: 
   title: Something You Need To Know
   features:
-  - name: "Clean Code"
+  - name: "Clean Workspace"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "A clean workspace boosts productivity, focus, and well-being. Declutter for a stress-free and efficient environment."
   - name: "Object Oriented"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "object-oriented classes that leverages encapsulation, modularity, and reusability for efficient web programming."
   - name: "24h Service"
     icon: "/images/user-clock.svg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
