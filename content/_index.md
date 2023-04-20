@@ -47,7 +47,7 @@ services:
   - title: "Come Explore And Unlock New Wisdom, Through Software Engineering and Advanced Technologies in Education"
     content: "Delving into a vast array of online courses, workshops, and engaging content, our platform provides educators with the essential knowledge and skills required to traverse the dynamic terrain of technology in education. Our accomplished instructors and seasoned industry experts stand committed to illuminating your path, leading you to explore the latest breakthroughs in software engineering, artificial intelligence, machine learning, and beyond."
     images: 
-      - "/images/probando.jpg"
+      - "/images/nuevo.jpg"
     button:
       enable: true
       label: Check it out
