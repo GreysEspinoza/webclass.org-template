@@ -40,7 +40,6 @@ services:
       - "/images/Inteligencia-Artificial.jpg"
       - "/images/ten.jpg"
       - "/images/x.jpg"
-      - "/images/ai.jpg"
       - "/images/agile.jpg"
     button:
       enable: true
