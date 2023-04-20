@@ -2,25 +2,10 @@
 title: About Us!
 layout: pricing
 draft: false
-plans:
+plans: []
 
-
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
-  type: month
-  recommended: true
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
-  button:
-    label: Get started
-    link: "/contact"
-
-
+about_description: >
+  Embark on an enlightening journey with MyWebClass.org, an online platform meticulously designed to transform the way educators impart knowledge in software engineering and advanced technologies. Our sage-guided mission is to empower educators and students by providing a wealth of cutting-edge resources, tools, and strategies, enabling them to excel in the ever-evolving realm of technology in education.
 
 call_to_action:
   title: Need a larger plan?
