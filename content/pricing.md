@@ -1,5 +1,5 @@
 ---
-title: 
+title: About Us!
 layout: pricing
 draft: false
 plans: []
@@ -9,7 +9,7 @@ about_description: >
 
 # feature
 feature: 
-  title: About Us!
+  title: 
   features:
   - name: "Clean Workspace"
     icon: "/images/code.svg"
