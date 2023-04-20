@@ -55,29 +55,6 @@ services:
       enable: true
       label: Check it out
       link: /contact
-  
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "At MyWebClass.org, we unite an exceptional ensemble of erudite and accomplished individuals, deeply committed to reshaping software engineering and advanced technology education. Our purpose is to impart the indispensable knowledge and resources drawn from the collective wisdom of our team, whose expertise spans a multitude of disciplines. With MyWebClass.org, you are guided by the sage-like insights of the finest minds, as you embark on your journey to elevate your pedagogical prowess and inspire your students."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "At MyWebClass.org, our distinctiveness lies in our dedication to unearthing wisdom and fostering enlightenment in the domain of software engineering and advanced technology education. Our sage-inspired approach centers on empowering educators with innovative methodologies and avant-garde resources, setting us apart in our quest to cultivate transformative teaching and learning experiences. With a steadfast devotion to fostering intellectual growth, nurturing collaborative exploration, and igniting the spark of curiosity, MyWebClass.org stands as a singular guiding light, illuminating the path towards a richer and more enlightened future for education."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
 # workflow
 workflow: 
   title: "Experience the best workflow with us"
