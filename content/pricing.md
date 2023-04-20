@@ -1,5 +1,5 @@
 ---
-title: About Us!
+title: 
 layout: pricing
 draft: false
 plans: []
@@ -9,7 +9,7 @@ about_description: >
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: About Us!
   features:
   - name: "Clean Workspace"
     icon: "/images/code.svg"
@@ -23,6 +23,13 @@ feature:
   - name: "Value for our Customers"
     icon: "/images/love.svg"
     content: "MyWebClass delivers value for customers with high-quality learning resources and a user-friendly experience tailored to their needs."
+  - name: "Faster Response"
+    icon: "/images/speedometer.svg"
+    content: "We offer faster response times, ensuring prompt assistance and a smooth learning experience for users."
+  - name: "Cloud Support"
+    icon: "/images/cloud.svg"
+    content: "Features cloud support, enabling seamless access, collaboration, and resource management from anywhere."
+
     
 
 call_to_action:
