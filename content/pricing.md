@@ -12,22 +12,22 @@ feature:
   title: 
   features:
   - name: "Our Team"
-    icon: "/images/code.svg"
+    icon: "/images/team-28.svg"
     content: "Our team at MyWebClass.org consists of knowledgeable instructors and seasoned industry professionals who are deeply passionate about fostering the future of education."
   - name: "Our Offerings"
-    icon: "/images/oop.svg"
+    icon: "/images/noun-special-offer-1084161.svg"
     content: "MyWebClass.org presents a comprehensive library of online courses, workshops, and interactive content, each thoughtfully curated to cater to the distinct needs of educators and students in software engineering and advanced technologies."
   - name: "Our Community"
-    icon: "/images/user-clock.svg"
+    icon: "/images/noun-community-4018903.svg"
     content: "We value the cultivation of a collaborative and supportive environment where educators and students can share their experiences, seek answers to their questions, and learn from one another."
   - name: "Path for Success"
     icon: "/images/love.svg"
     content: "At MyWebClass.org, we take pride in the accomplishments of our students and educators. Our platform showcases a collection of inspiring success stories, motivating others to reach new heights in their educational journey and career."
   - name: "Cutting-Edge Tools and Resources"
-    icon: "/images/speedometer.svg"
+    icon: "/images/noun-resources-4211348.svg"
     content: "We equip our users with state-of-the-art tools, resources, and technology to enhance their learning experience. Our commitment to staying ahead of industry trends ensures that our community has access to the most advanced and innovative tools available."
   - name: "Get in Touch"
-    icon: "/images/cloud.svg"
+    icon: "/images/noun-contact-us-2863821.svg"
     content: "We warmly welcome your thoughts and inquiries. Whether you have a question, require support, or wish to share your feedback, feel free to contact us via our website's contact form."
 
     
