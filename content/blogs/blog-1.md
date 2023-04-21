@@ -6,7 +6,6 @@ date: 2023-04-04T05:00:00Z
 draft: false
 ---
 
-##### Article
 
 Artificial intelligence (AI) is transforming the way education is delivered and received. Agile and lean methodologies prioritize collaboration, flexibility, and continuous improvement, making them ideal for personalized and efficient learning experiences. By integrating AI into these methodologies, educators can create a student-centered learning environment that is tailored to individual needs and preferences.
 
