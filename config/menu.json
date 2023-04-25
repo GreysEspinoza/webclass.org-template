@@ -23,18 +23,23 @@
   ],
   "footer": [
     {
+      "name": "subscribe",
+      "menu": [
+        {
+          "text": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
       "name": "Product",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Articles",
+          "url": "/blogs"
         },
         {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "About Us",
+          "text": "About us",
           "url": "/pricing"
         }
       ]
