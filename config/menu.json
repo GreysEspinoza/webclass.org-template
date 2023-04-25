@@ -23,19 +23,6 @@
   ],
   "footer": [
     {
-      "name": "Company",
-      "menu": [
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
-    },
-    {
       "name": "Product",
       "menu": [
         {
@@ -47,7 +34,7 @@
           "url": "#"
         },
         {
-          "text": "Pricing",
+          "text": "About Us",
           "url": "/pricing"
         }
       ]
