@@ -23,15 +23,11 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "subscribe",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Contact",
+          "url": "/contact"
         }
       ]
     },
@@ -39,15 +35,11 @@
       "name": "Product",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Articles",
+          "url": "/blogs"
         },
         {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
+          "text": "About us",
           "url": "/pricing"
         }
       ]
