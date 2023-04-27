@@ -5,7 +5,7 @@ draft: false
 faqs:
 - title: Introduction and Acceptance of Terms:
   answer: Welcome to MyWebClass.org, a website dedicated to providing articles and resources related to technology and programming. By accessing or using this website, you agree to be bound by these Terms and Conditions of Use.
-- 
+
 - title: Use of Service and User Responsibilities:
   answer: You agree to use MyWebClass.org in accordance with all applicable laws, regulations, and these Terms and Conditions of Use. You are solely responsible for any content you publish on the website and for any consequences that may result from your actions.
 - title:User Content and Intellectual Property:
