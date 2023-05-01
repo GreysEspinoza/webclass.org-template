@@ -8,6 +8,11 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
+
 
 const Home = ({ frontmatter }) => {
   const { banner, feature, services, workflow, call_to_action } = frontmatter;
@@ -33,7 +38,7 @@ const Home = ({ frontmatter }) => {
               )}
               <Image
                 className="mx-auto mt-12"
-                src={banner.image}
+                src={`${assetPrefix}${banner.image}`}
                 width={750}
                 height={390}
                 alt="banner image"
