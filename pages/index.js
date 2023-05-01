@@ -63,7 +63,7 @@ const Home = ({ frontmatter }) => {
                 {item.icon && (
                   <Image
                     className="mx-auto"
-                    src={item.icon}
+                    src={`${assetPrefix}${item.icon}`}
                     width={30}
                     height={30}
                     alt=""
