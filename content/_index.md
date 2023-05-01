@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Welcome to My Webclass
+  title: Welcome to My Webclass 
   content: Your Gateway to the Future of Educational Technology!
   image: /images/banner-art.svg
   button:
