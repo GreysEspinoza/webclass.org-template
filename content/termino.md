@@ -1,5 +1,5 @@
 ---
-title: term and use.
+title: Terms & Conditions.
 layout: faq
 draft: false
 faqs:
