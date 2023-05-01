@@ -9,10 +9,10 @@ faqs:
 - title: Use of Service and User Responsibilities
   answer: You agree to use MyWebClass.org in accordance with all applicable laws, regulations, and these Terms and Conditions of Use. You are solely responsible for any content you publish on the website and for any consequences that may result from your actions.
 
-- title:User Content and Intellectual Property
+- title: User Content and Intellectual Property
   answer: By publishing content on MyWebClass.org, you grant us a non exclusive, royalty free license to use, reproduce, and distribute your content in connection with the website. You represent and warrant that you own or have the necessary licenses, rights, consents, and permissions to publish the content.
 
-- title:Payment, Renewal, and Cancellation of Service
+- title: Payment, Renewal, and Cancellation of Service
   answer: MyWebClass.org may offer paid services, such as premium content or subscriptions. Payment is due in advance and is non refundable. We reserve the right to change our prices and offerings at any time.
 
 - title: Privacy Policy and Protection of Personal Data
