@@ -17,3 +17,12 @@ module.exports = withImages({
     assetPrefix: process.env.NODE_ENV === 'production' ? '/webclass.org-template' : '',
   },
 });
+
+module.exports = {
+  // Your existing configurations...
+  basePath: "/webclass.org-template",
+  assetPrefix: "/webclass.org-template",
+  images: {
+    unoptimized: true,
+  },
+};
