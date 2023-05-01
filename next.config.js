@@ -25,4 +25,7 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  publicRuntimeConfig: {
+    assetPrefix: "/webclass.org-template",
+  },
 };
