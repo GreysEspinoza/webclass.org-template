@@ -2,6 +2,10 @@ import config from "@config/config.json";
 import { plainify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
 
 const Posts = ({ posts }) => {
   const { blog_folder, summary_length } = config.settings;
@@ -13,7 +17,7 @@ const Posts = ({ posts }) => {
             {posts[0].frontmatter.image && (
               <Image
                 className="h-auto w-full rounded-lg"
-                src={posts[0].frontmatter.image}
+                src={`${assetPrefix}${posts[0].frontmatter.image}`}
                 alt={posts[0].frontmatter.title}
                 width={540}
                 height={227}
@@ -51,7 +55,7 @@ const Posts = ({ posts }) => {
           {post.frontmatter.image && (
             <Image
               className="rounded-lg"
-              src={post.frontmatter.image}
+              src={`${assetPrefix}${post.frontmatter.image}`}
               alt={post.frontmatter.title}
               width={i === 0 ? "925" : "445"}
               height={i === 0 ? "475" : "230"}
