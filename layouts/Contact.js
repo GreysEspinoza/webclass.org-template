@@ -19,14 +19,14 @@ const Contact = ({ data }) => {
         SUBJECT: formData.get("subject")
       }
     };
-    const response = await fetch(`https://us21.api.mailchimp.com/3.0/lists/${mailchimp_list_id}/members`, {
-      method: "POST",
-      headers: {
-        Authorization: `apikey ${mailchimp_api_key}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+  const response = await fetch(`https://us21.api.mailchimp.com/3.0/lists/${mailchimp_list_id}/members`, {
+  method: "POST",
+  headers: {
+    Authorization: `apikey ${mailchimp_api_key}`,
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(data),
+});
     const result = await response.json();
     if (response.status === 200) {
       setMessage("Thank you for subscribing!");
