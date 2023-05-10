@@ -2,6 +2,10 @@ import Link from "next/link";
 import Cta from "./components/Cta";
 import { markdownify } from '../lib/utils/helpers'; // Update the path to point to the lib/utils/helpers.js file
 import Image from "next/image";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
 
 
 function Pricing({ data }) {
@@ -33,7 +37,7 @@ function Pricing({ data }) {
                     {item.icon && (
                       <Image
                         className="mx-auto"
-                        src={item.icon}
+                        src={`${assetPrefix}${item.icon}`}
                         width={30}
                         height={30}
                         alt=""

@@ -1,6 +1,10 @@
 import config from "@config/config.json";
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
+
 
 const Logo = ({ src }) => {
   // destructuring items from config object
@@ -20,7 +24,7 @@ const Logo = ({ src }) => {
         <Image
           width={logo_width.replace("px", "") * 2}
           height={logo_height.replace("px", "") * 2}
-          src={src ? src : logo}
+          src={src ? `${assetPrefix}${src}` : `${assetPrefix}${logo}`}
           alt={title}
           priority
         />

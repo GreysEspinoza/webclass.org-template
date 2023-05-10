@@ -1,6 +1,10 @@
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
 
 function Cta({ cta }) {
   return (
@@ -10,7 +14,7 @@ function Cta({ cta }) {
           <div className="md:col-5 lg:col-4">
             <Image
               className="w-full"
-              src={cta?.image}
+              src={`${assetPrefix}${cta?.image}`}
               alt="call to action image"
               width={325}
               height={206}

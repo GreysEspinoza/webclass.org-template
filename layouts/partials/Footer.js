@@ -5,6 +5,11 @@ import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
+
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
@@ -34,10 +39,10 @@ const Footer = () => {
           <div className="md-12 sm:col-6 lg:col-3">
             <Link href="/" aria-label="Bigspring">
               <Image
-                src={config.site.logo}
+                 src={`${assetPrefix}${config.site.logo}`}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
-                alt=""
+                alt="My Webclass.org logo"
               />
             </Link>
             {markdownify(footer_content, "p", "mt-3 mb-6")}

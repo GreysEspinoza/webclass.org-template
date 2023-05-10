@@ -3,6 +3,11 @@ import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Base from "./Baseof";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
+
 
 const PostSingle = ({ frontmatter, content, mdxContent }) => {
   let { description, title, image } = frontmatter;
@@ -16,7 +21,7 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
             <article className="col-12 mx-auto text-center md:col-8">
               {image && (
                 <Image
-                  src={image}
+                  src={`${assetPrefix}${image}`}
                   height="500"
                   width="1000"
                   alt={title}

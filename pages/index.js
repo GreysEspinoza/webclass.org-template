@@ -8,6 +8,10 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPrefix } = publicRuntimeConfig;
 
 const Home = ({ frontmatter }) => {
   const { banner, feature, services, workflow, call_to_action } = frontmatter;
@@ -33,7 +37,7 @@ const Home = ({ frontmatter }) => {
               )}
               <Image
                 className="mx-auto mt-12"
-                src={banner.image}
+                src={`${assetPrefix}${banner.image}`}
                 width={750}
                 height={390}
                 alt="banner image"
@@ -59,7 +63,7 @@ const Home = ({ frontmatter }) => {
                 {item.icon && (
                   <Image
                     className="mx-auto"
-                    src={item.icon}
+                    src={`${assetPrefix}${item.icon}`}
                     width={30}
                     height={30}
                     alt=""
@@ -101,7 +105,7 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                        <Image src={`${assetPrefix}${slide}`} alt="" width={600} height={500} />
                       </SwiperSlide>
                     ))}
                   </Swiper>
@@ -123,7 +127,7 @@ const Home = ({ frontmatter }) => {
                       {service?.button.label}
                       <Image
                         className="ml-1"
-                        src="/images/arrow-right.svg"
+                        src={`${assetPrefix}/images/arrow-right.svg`}
                         width={18}
                         height={14}
                         alt="arrow"
@@ -148,7 +152,7 @@ const Home = ({ frontmatter }) => {
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
         <Image
-          src={workflow.image}
+          src={`${assetPrefix}${workflow.image}`}
           alt="workflow image"
           width={1920}
           height={296}
@@ -172,3 +176,4 @@ export const getStaticProps = async () => {
 };
 
 export default Home;
+
