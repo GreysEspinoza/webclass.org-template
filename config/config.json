@@ -25,7 +25,9 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Your Passion, Unlock Timeless Wisdom, and Empowered Journey",
-    "copyright": "© Copyright 2023 "
+    "copyright": "© Copyright 2023 ",
+     "mailchimp_api_key": "1acbb1364d58a5b1afed61acbee76400-us21",
+    "mailchimp_list_id": ".8a88396945"
   },
 
   "metadata": {
