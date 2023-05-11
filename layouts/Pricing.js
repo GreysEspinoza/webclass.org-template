@@ -3,15 +3,31 @@ import Cta from "./components/Cta";
 import { markdownify } from '../lib/utils/helpers'; // Update the path to point to the lib/utils/helpers.js file
 import Image from "next/image";
 import getConfig from 'next/config';
+import { useTranslation } from "react-i18next";
+import pricingDataEn from "@config/pricing.json";
+import pricingDataEs from "@config/pricing.es.json";
+
 
 const { publicRuntimeConfig } = getConfig();
 const { assetPrefix } = publicRuntimeConfig;
 
 
-function Pricing({ data }) {
-  const {
-    frontmatter: { title, plans, call_to_action, feature },
-  } = data;
+function Pricing() {
+
+  // get the current language from react-i18next
+  const { t, i18n } = useTranslation();
+
+  // set the pricing data based on the current language
+  const pricingData = i18n.language === "es" ? pricingDataEs : pricingDataEn;
+  const title = pricingData.title;
+  const feature = pricingData.feature;
+  const call_to_action = pricingData.call_to_action;
+
+  // Ensure feature is defined before rendering
+  if (!feature) {
+    return null;
+  }
+
   return (
     <>
       <section className="section pb-0">
@@ -58,5 +74,6 @@ function Pricing({ data }) {
     </>
   );
 }
+
 
 export default Pricing;
