@@ -9,7 +9,9 @@
     "build": "next build",
     "export": "next build && next export",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export -c next-export.config.js"
+
   },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
