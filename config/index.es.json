@@ -1,0 +1,90 @@
+{
+  "banner": {
+    "title": "Bienvenido a Mi ClaseWeb",
+    "content": "¡Tu puerta de entrada al futuro de la tecnología educativa!",
+    "image": "/images/banner-art.svg",
+    "button": {
+      "label": "Contáctanos",
+      "link": "/contact"
+    }
+  },
+  "feature": {
+    "title": "Algo que necesitas saber",
+    "features": [
+      {
+        "name": "Espacio de trabajo limpio",
+        "icon": "/images/code.svg",
+        "content": "Un espacio de trabajo limpio aumenta la productividad, el enfoque y el bienestar. Despeja para un entorno sin estrés y eficiente."
+      },
+      {
+        "name": "Orientado a Objetos",
+        "icon": "/images/oop.svg",
+        "content": "Clases orientadas a objetos que aprovechan la encapsulación, la modularidad y la reutilización para la eficiencia."
+      },
+      {
+        "name": "Servicio 24 horas",
+        "icon": "/images/user-clock.svg",
+        "content": "Ofrecemos un servicio de 24 horas, brindando soporte las 24 horas del día, garantizando una confiabilidad y accesibilidad consistentes para tus necesidades."
+      },
+      {
+        "name": "Valor para nuestros clientes",
+        "icon": "/images/love.svg",
+        "content": "MiClaseWeb ofrece valor a los clientes con recursos de aprendizaje de alta calidad y una experiencia fácil de usar adaptada a sus necesidades."
+      },
+      {
+        "name": "Respuesta más rápida",
+        "icon": "/images/speedometer.svg",
+        "content": "Ofrecemos tiempos de respuesta más rápidos, asegurando asistencia rápida y una experiencia de aprendizaje fluida para los usuarios."
+      },
+      {
+        "name": "Soporte en la nube",
+        "icon": "/images/cloud.svg",
+        "content": "Cuenta con soporte en la nube, permitiendo un acceso, colaboración y gestión de recursos sin problemas desde cualquier lugar."
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Es la plataforma educativa más avanzada sobre temas de tecnología e IA",
+      "content": "Los diferentes artículos se centran en llevar los beneficios de la tecnología de vanguardia y las metodologías de enseñanza innovadoras al campo educativo. Es un líder de pensamiento en la industria de la tecnología educativa y busca colaborar con otros expertos en el campo para aumentar la visibilidad y la credibilidad de su organización. Su misión es empoderar a los educadores con las herramientas y los recursos necesarios para transformar sus prácticas de enseñanza. Enseñar y mejorar las experiencias de aprendizaje de sus estudiantes. Sus publicaciones en el blog proporcionan una visión de las posibilidades de estas tecnologías y metodologías, con títulos como \"Revolucionando la educación: la sinergia de la IA, las metodologías ágiles y Lean\". El objetivo final es ayudar a impulsar una revolución en la tecnología educativa que mejore los resultados educativos para todos.",
+      "images": [
+        "/images/develoment.jpg",
+        "/images/Inteligencia-Artificial.jpg",
+        "/images/x.jpg",
+        "/images/agile.jpg"
+      ],
+      "button": {
+        "enable": true,
+        "label": "Echa un vistazo",
+        "link": "/contact"
+      }
+    },
+    {
+      "title": "Ven a explorar y desbloquear nueva sabiduría, a través de la ingeniería de software y tecnologías avanzadas en educación",
+      "content": "Profundizando en una amplia gama de cursos en línea, talleres y contenido atractivo, nuestra plataforma proporciona a los educadores el conocimiento y las habilidades esenciales requeridas para atravesar el terreno dinámico de la tecnología en la educación. Nuestros instructores experimentados y expertos de la industria comprometidos están comprometidos a iluminar tu camino, guiándote a explorar los últimos avances en ingeniería de software, inteligencia artificial, aprendizaje automático y más allá.",
+      "images": [
+        "/images/teaching2.svg"
+      ],
+      "button": {
+        "enable": true,
+        "label": "Echa un vistazo",
+        "link": "/contact"
+      }
+    }
+  ],
+  "workflow": {
+    "title": "Experimenta el mejor flujo de trabajo con nosotros",
+    "image": "/images/banner.svg",
+    "description": ""
+  },
+  "call_to_action": {
+    "title": "¿Listo para comenzar?",
+    "content": "Embarcate en un viaje iluminador con MiClaseWeb.org; la educación en tecnología avanzada revela experiencias de aprendizaje transformadoras. Sumérgete en el crecimiento intelectual, la exploración colaborativa y la curiosidad encendida mientras iluminamos el camino hacia un futuro educativo más brillante. ¡Únete a nosotros hoy!",
+    "image": "/images/imagen.jpg",
+    "button": {
+      "enable": true,
+      "label": "Contáctanos",
+      "link": "/contact"
+    }
+  }
+}

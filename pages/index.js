@@ -7,14 +7,25 @@ import Link from "next/link";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import { getListPage } from "../lib/contentParser";
+//import { getListPage } from "../lib/contentParser";
 import getConfig from 'next/config';
+import { useTranslation } from "react-i18next";
+import indexDataEN from "@config/index.json";
+import indexDataES from "@config/index.es.json";
+
 
 const { publicRuntimeConfig } = getConfig();
 const { assetPrefix } = publicRuntimeConfig;
+import content from "@config/index.json";
 
-const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+const Home = () => {
+  // Get the current language from react-i18next
+  const { t, i18n } = useTranslation();
+
+  // Set the index data based on the current language
+  const indexData = i18n.language === "es" ? indexDataES : indexDataEN;
+
+  const { banner, feature, services, workflow, call_to_action } = indexData;
   const { title } = config.site;
 
   return (
@@ -166,14 +177,13 @@ const Home = ({ frontmatter }) => {
 };
 
 export const getStaticProps = async () => {
-  const homePage = await getListPage("content/_index.md");
-  const { frontmatter } = homePage;
   return {
     props: {
-      frontmatter,
+      indexData: content,
     },
   };
 };
+
 
 export default Home;
 
