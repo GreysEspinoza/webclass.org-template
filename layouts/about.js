@@ -12,7 +12,7 @@ const { publicRuntimeConfig } = getConfig();
 const { assetPrefix } = publicRuntimeConfig;
 
 
-function Pricing() {
+function about() {
 
   // get the current language from react-i18next
   const { t, i18n } = useTranslation();
@@ -76,4 +76,4 @@ function Pricing() {
 }
 
 
-export default Pricing;
+export default about;
