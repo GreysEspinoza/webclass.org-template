@@ -2,7 +2,7 @@
 title: Privacy Policy
 layout: privacy
 draft: false
-faqs:
+
 
 - title: Our Commitment
   answer: At MyWebClass.org, we prioritize your privacy and are dedicated to protecting your personal information. This Privacy Policy outlines how we collect, use, and secure your information, as well as the choices you have regarding the collection and use of your data. By using our website and services, you agree to the terms of this Privacy Policy. 
