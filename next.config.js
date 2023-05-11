@@ -10,8 +10,4 @@ module.exports = withImages({
   images: {
     unoptimized: true,
   },
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
-  },
 });
