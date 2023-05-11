@@ -4,8 +4,8 @@ import { markdownify } from '../lib/utils/helpers'; // Update the path to point 
 import Image from "next/image";
 import getConfig from 'next/config';
 import { useTranslation } from "react-i18next";
-import pricingDataEn from "@config/pricing.json";
-import pricingDataEs from "@config/pricing.es.json";
+import pricingDataEn from "@config/about.json";
+import pricingDataEs from "@config/about.es.json";
 
 
 const { publicRuntimeConfig } = getConfig();
