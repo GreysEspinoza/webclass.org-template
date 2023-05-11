@@ -4,24 +4,24 @@ import { markdownify } from '../lib/utils/helpers'; // Update the path to point 
 import Image from "next/image";
 import getConfig from 'next/config';
 import { useTranslation } from "react-i18next";
-import aboutDataEn from "@config/about.json";
-import aboutDataEs from "@config/about.es.json";
+import pricingDataEn from "@config/about.json";
+import pricingDataEs from "@config/about.es.json";
 
 
 const { publicRuntimeConfig } = getConfig();
 const { assetPrefix } = publicRuntimeConfig;
 
 
-function about() {
+function Pricing() {
 
   // get the current language from react-i18next
   const { t, i18n } = useTranslation();
 
   // set the pricing data based on the current language
-  const aboutData = i18n.language === "es" ? aboutDataEs : aboutDataEn;
-  const title = aboutData.title;
-  const feature = aboutData.feature;
-  const call_to_action = aboutData.call_to_action;
+  const pricingData = i18n.language === "es" ? pricingDataEs : pricingDataEn;
+  const title = pricingData.title;
+  const feature = pricingData.feature;
+  const call_to_action = pricingData.call_to_action;
 
   // Ensure feature is defined before rendering
   if (!feature) {
@@ -76,4 +76,4 @@ function about() {
 }
 
 
-export default about;
+export default Pricing;
