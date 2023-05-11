@@ -1,6 +1,6 @@
 
 |Issue Title|Story Points|Status|Assigned to|Assigned On|Completed On|Category|Status Notes|
-|---|---|---|---|--|---|---|---|---|
+|---|---|---|---|--|---|---|---|
 | Develop the "Articles" section of the website | 8 | Done| Annerys | 4/12/2023 | 5/10/2023 | Documentation and design | |
 | mailchimp form  | 6 | Done | Annerys | 5/2/2023 | 5/10/2023 | feature and design | |
 | Create Team Productivity Log | 2 | done | Annerys | 4/4/2023 | 5/10/2023 | Documentation | |
