@@ -26,7 +26,7 @@ const RegularPages = ({ data }) => {
       ) : layout === "contact" ? (
         <Contact data={data} />
       ) : layout === "about" ? (
-        <Pricing data={data} />
+        <about data={data} />
       ) : layout === "faq" ? (
         <Faq data={data} />
       ) : (
