@@ -1,20 +1,29 @@
-import { markdownify } from "@lib/utils/textConverter";
+import { useTranslation } from "react-i18next";
+import faqDataEn from "@config/faq.json";
+import faqDataEs from "@config/faq.es.json";
 
 function Faq({ data }) {
   const { frontmatter } = data;
-  const { title, faqs } = frontmatter;
+  const { title } = frontmatter;
+
+  // get the current language from react-i18next
+  const { i18n } = useTranslation();
+
+  // set the faq data based on the current language
+  const faqData = i18n.language === "es" ? faqDataEs.faqs : faqDataEn.faqs;
+
   return (
     <section className="section">
       <div className="container">
-        {markdownify(title, "h1", "text-center font-normal")}
+        <h1 className="text-center font-normal">{title}</h1>
         <div className="section row  -mt-6">
-          {faqs.map((faq, index) => (
+          {faqData.map((faq, index) => (
             <div key={index} className="col-12 mt-6 md:col-6">
               <div className="p-12  shadow">
                 <div className="faq-head relative">
-                  {markdownify(faq.title, "h4")}
+                  <h4>{faq.title}</h4>
                 </div>
-                {markdownify(faq.answer, "p", "faq-body mt-4")}
+                <p className="faq-body mt-4">{faq.answer}</p>
               </div>
             </div>
           ))}

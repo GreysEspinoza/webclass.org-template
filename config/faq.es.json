@@ -1,0 +1,31 @@
+{
+  "title": "Preguntas Frecuentes",
+  "layout": "faq",
+  "draft": false,
+  "faqs": [
+    {
+      "title": "¿Las actualizaciones también serán gratuitas?",
+      "answer": "En efecto, en MyWebClass.org abrazamos la sabiduría de compartir conocimientos y fomentar el crecimiento. Nos aseguramos de que nuestros estimados usuarios tengan acceso sin restricciones a los últimos avances en ingeniería de software y educación en tecnología avanzada. Nuestro compromiso radica en mantener la actualidad de nuestro contenido y proporcionar futuras actualizaciones sin costo adicional. Al ofrecer soporte duradero y acceso a recursos innovadores, empoderamos tanto a educadores como a estudiantes mientras transitan por el camino del descubrimiento en este reino en constante cambio."
+    },
+    {
+      "title": "¿Quiénes pueden beneficiarse de MyWebClass.org?",
+      "answer": "MyWebClass.org es un recurso valioso para educadores, profesores e instructores que buscan enriquecer su enfoque pedagógico y mantenerse al tanto de las innovaciones más recientes en ingeniería de software y tecnologías avanzadas. Además, nuestra plataforma atiende a estudiantes que buscan ampliar su conocimiento y obtener una comprensión más profunda de estos campos dinámicos."
+    },
+    {
+      "title": "Necesito algo único, ¿pueden hacerlo?",
+      "answer": "Como buscadores de sabiduría y creatividad, en MyWebClass.org entendemos la importancia de crear soluciones únicas adaptadas a sus necesidades individuales. Nuestro equipo de profesionales experimentados y conocedores está dedicado a trabajar en estrecha colaboración con usted para desarrollar recursos y contenido personalizados en ingeniería de software y educación en tecnología avanzada. Al combinar nuestras perspicacias y experiencia colectivas, estamos preparados para ayudarlo a forjar un camino distintivo, enriqueciendo tanto su experiencia de enseñanza como el viaje de aprendizaje de sus estudiantes."
+    },
+    {
+      "title": "¿Hay documentación y soporte?",
+      "answer": "Sí, en MyWebClass.org proporcionamos una amplia documentación y soporte para nuestros usuarios. Nuestra plataforma cuenta con guías detalladas, tutoriales y recursos para ayudarlo a navegar por los cursos y talleres de manera efectiva. Además de nuestra documentación integral, tenemos un equipo de soporte dedicado disponible para ayudarlo con cualquier pregunta, problema o inquietud que pueda encontrar mientras usa la plataforma. No dude en comunicarse con nuestro equipo de soporte a través del formulario de contacto del sitio web y estaremos encantados de ayudarlo."
+    },
+    {
+      "title": "¿Puedo sugerir temas o solicitar nuevo contenido?",
+      "answer": "Sí, recibimos sugerencias y comentarios de nuestros usuarios. Si tiene una solicitud de tema o contenido, no dude en comunicarse con nuestro equipo de soporte y consideraremos sus comentarios para futuras actualizaciones."
+    },
+    {
+      "title": "¿Qué es una clave de producto?",
+      "answer": "Una clave de producto es un código alfanumérico único que se proporciona a los usuarios al comprar acceso a cursos, talleres o recursos premium. Este código sirve como prueba de compra y garantiza que solo los usuarios autorizados tengan acceso al contenido exclusivo. Para activar las funciones premium en MyWebClass.org, simplemente ingrese la clave del producto cuando se le solicite durante el proceso de registro o actualización, y el sistema validará su acceso a las ofertas premium."
+       }
+  ]
+}
