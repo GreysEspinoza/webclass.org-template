@@ -1,5 +1,5 @@
 ---
-title: About Us!
+title: MyWebClass.org | About
 layout: pricing
 draft: false
 plans: []
