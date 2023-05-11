@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: privacy
+layout: faq
 draft: false
 faqs:
 
