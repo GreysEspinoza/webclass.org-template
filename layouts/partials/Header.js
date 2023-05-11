@@ -4,6 +4,7 @@ import menu from "@config/menu.json";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import LanguageSwitcher from '@components/LanguageSwitcher';
 
 const Header = () => {
   //router
@@ -25,6 +26,9 @@ const Header = () => {
         {/* logo */}
         <div className="order-0">
           <Logo src={logo} />
+        </div>
+        <div className={LanguageSwitcher}>
+          <LanguageSwitcher />
         </div>
 
         {/* navbar toggler */}

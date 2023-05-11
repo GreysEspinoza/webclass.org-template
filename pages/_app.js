@@ -4,9 +4,32 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { appWithTranslation } from 'next-i18next';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+import common_en from '@config/contact.json';
+import common_es from '@config/contact.es.json';
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
+  // Initialize i18n with the resources and options
+  i18n.use(initReactI18next).init({
+    resources: {
+      en: {
+        common: common_en,
+      },
+
+      es: {
+        common: common_es,
+      }
+    },
+    lng: pageProps.locale || 'en', // Set the current language
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false
+    }
+    });
 
   // import google font css
   const pf = theme.fonts.font_family.primary;
@@ -58,4 +81,5 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export default App;
+//export default App;
+export default appWithTranslation(App);

@@ -48,3 +48,9 @@ h6,
 code {
   @apply before:hidden after:hidden;
 }
+.LanguageSwitcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}

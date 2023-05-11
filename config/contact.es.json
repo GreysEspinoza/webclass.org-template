@@ -1,0 +1,14 @@
+{
+  "title": "Contáctenos",
+  "layout": "contact",
+  "draft": false,
+  "info": {
+    "title": "¡Por qué debería contactarnos!",
+    "description": "Contacte a MyWebClass.org para obtener orientación experta, soporte personalizado, acceso a recursos educativos de vanguardia y una comunidad acogedora que fomenta la colaboración e innovación en la educación en ingeniería de software y tecnología avanzada.",
+    "contacts": [
+      "teléfono: +88 125 256 452",
+      "Correo: info@bigspring.com",
+      "Dirección: 360 Main rd, Rio, Brasil"
+    ]
+  }
+}

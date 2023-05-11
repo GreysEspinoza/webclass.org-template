@@ -28,4 +28,9 @@ module.exports = {
   publicRuntimeConfig: {
     assetPrefix: "/webclass.org-template",
   },
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+  },
 };
+
