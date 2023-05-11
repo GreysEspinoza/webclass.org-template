@@ -4,13 +4,14 @@ import faqDataEs from "@config/faq.es.json";
 
 function Faq({ data }) {
   const { frontmatter } = data;
-  const { title } = frontmatter;
+  //const { title } = frontmatter;
 
   // get the current language from react-i18next
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   // set the faq data based on the current language
   const faqData = i18n.language === "es" ? faqDataEs.faqs : faqDataEn.faqs;
+  const title = i18n.language === "es" ? faqDataEs.title : faqDataEn.title;
 
   return (
     <section className="section">
